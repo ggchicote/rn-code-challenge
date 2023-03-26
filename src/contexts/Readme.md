@@ -1,0 +1,3 @@
+# Context folder
+
+This folder contains a list of all the Contexts needed in your project. Contexts are useful for parents components whenever they have to pass down and make some information available to any component in their tree below. For instance: AuthContext, LocalizationContext, ConfigContext, etc. It's a good practice to use them with custom hooks in order to easily access to context's values at any child component.
